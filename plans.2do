@@ -1,0 +1,5 @@
+ncurses interface
+suppression of comments
+add tasks
+random task from list
+--Nope, just | shuf -n 1

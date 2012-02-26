@@ -1,0 +1,6 @@
+2do 0.1
+
+2do is a program for managing simple plaintext task lists. 2do will scan through a tasklist, interpreting entries as references to other lists, descending deeper as it goes. At the moment it merely collects all these tasks and presents them to the user.
+
+Planned Features include:
+
