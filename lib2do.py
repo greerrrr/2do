@@ -22,11 +22,13 @@ class taskContext:
     def __init__(self,filename):
         self.name = filename
         self.fullpath = os.path.abspath(filename)
-        todofile = open(filename, "r+")
         self.entries = []
-        #pdb.set_trace()
-        for line in todofile:
-            self.entries.append(entry(line))
+        try:
+            todofile = open(filename, "r+")
+            for line in todofile:
+                self.entries.append(entry(line))
+        except:
+            print "Opening file \"%s\" failed." % filename
 
     def allTasks(self):
         all = []

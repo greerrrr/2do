@@ -1,0 +1,7 @@
+# Personal tasklist
+*.2do
+# Compiled files
+*.pyc
+# Include all test file
+!testing/*
+!testing/*/*
