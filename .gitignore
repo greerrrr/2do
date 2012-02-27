@@ -2,6 +2,8 @@
 *.2do
 # Compiled files
 *.pyc
+# Log files
+*.log
 # Include all test file
 !testing/*
 !testing/*/*
